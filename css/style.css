@@ -1,0 +1,236 @@
+ul{
+	font-size: 17px;
+	font-weight: 550px;
+}
+.navbar{
+	background-color: transparent;
+	   
+}
+.nav-link{
+	 color: black;
+}
+.navbar-nav{
+	margin-right: 330px;
+}
+.nav-item{
+	margin-left: 10px;
+}
+.navicon{
+	font-size: 19px;
+}
+.navicon:hover{
+	color: blue;
+}
+#corusel{
+z-index: 2;
+}
+.yazilar{
+	position: absolute;
+	top:150px;
+	left:180px;
+}
+.yazilar>h1{
+	font-family: PlayfairDisplay-Bold;
+    font-size: 0px;
+    line-height: 1.1;
+    text-transform: uppercase;
+	padding-top: 30px;
+	transition: all 0.8s ease;
+}
+.yazilar>h2{
+	    font-family: Poppins-Regular;
+    font-size: 28px;
+    line-height: 1.2857;
+	padding-top: 50px;
+	opacity: 0;
+	transition: all 0.8s ease;
+}
+.yazilar>button{
+	    border-radius: 23px;
+ background-color: #717fe0;
+margin-top: 30px;
+color: white;
+font-weight: 500;
+min-width: 161px;
+    height: 46px;
+font-family: Poppins-Medium;
+    font-size: 16px;
+    line-height: 1.566667;
+    text-transform: uppercase;
+   
+    transition: all 1s ease;
+}
+.search{
+	transition: all 1s ease;
+
+	 top: -160px;
+    width: 100%;
+    display: none;
+}
+.search-content{
+	width: 900px;
+    margin-left: -200px;
+}
+.modal-sear{
+	width: 870px;
+	height: 100px;
+	font-size: 30px;
+}
+.card-modal{
+position: absolute;
+	display:none;
+	 width: 0px;
+   animation: all 2s ease-in-out;
+   right: -960px;
+   z-index: 5;
+
+}
+.frame{
+	
+		width: 60px;
+	height: 80px;
+	overflow: hidden;
+}
+.cardyazi{
+	position: absolute;
+	left: 90px;
+	top:0px;
+
+}
+.sekil{
+	position: relative;
+}
+img{
+	width: 100%;
+	height:100%;
+
+}
+.cardyazi>p:hover{
+	color: blue;
+
+}
+.card-modal-body>button{
+	border-radius:  23px;
+	width: 130px;
+	height: 45px;
+}
+.sekilqutu{
+	position: relative;
+	border: 1px solid silver;
+	width: 340px;
+    height: 220px;
+	overflow:hidden;
+}
+.ustyazi{
+	position: absolute;
+	  top: 25px;
+    left: 30px;
+}
+.proer{
+		font-family: Poppins-Bold;
+    font-size: 36px;
+    line-height: 1.1;
+    text-transform: uppercase;;
+
+}
+.stext-106{
+	font-family: Poppins-Regular;
+    font-size: 18px;
+    line-height: 1.2;
+outline: none;
+color: #797979;
+    border: none;
+    background: transparent;
+    cursor: pointer;
+    margin-top:20px;
+    margin-left: 10px;
+}
+.stext-106:hover{
+	 color: black;
+	 border-bottom: 1px solid black;
+}
+.btnmy{
+	width:100px;
+	height: 40px;
+	background: lightgrey;
+}
+.filter{
+	margin-left: 320px;
+	margin-top: 10px;
+}
+.card-body{
+	position: absolute;
+    top: 70px;
+    left: -565px;
+    width: 1100px;
+	height: 300px;
+	margin-left: 10px;
+}
+.mtext-102{
+	font-family: Poppins-SemiBold;
+    font-size: 18px;
+    line-height: 1.6;
+    font-weight: 600;
+    color: #333;
+    margin-left: 30px;
+    margin-bottom: 20px;
+}
+.sortby>li{
+	    color: #aaa;
+	list-style-type: none;
+	padding-top: 10px;
+}
+.sortby>li>a{
+	color: #aaa;
+}
+
+.sortby>li>a:hover{
+	color: #007bff;
+}
+.cblack{
+	
+	border-radius: 100%;
+	
+    font-size: 12px;
+
+}
+.tags>button{
+	
+	    border: 1px solid #ccc;
+    border-radius: 15px;
+    min-height: 30px;
+        font-family: Poppins-Regular;
+    font-size: 17px;
+    line-height: 1.923;
+        outline: none;
+    color: #797979;
+   margin-top:10px;
+    background: transparent;
+}
+.searfil{
+	position: absolute;
+	    top: 26px;
+    left: 440px;
+}
+.searcard{
+		position: absolute;
+    top: 70px;
+    left: -565px;
+    width: 1100px;
+	height: 200px;
+	margin-left: 10px;
+	border: none;
+}
+.searcard>input{
+	position: relative;
+	 width: 1000px;
+	height: 100px;
+	font-size: 25px;
+
+}
+.inputsear{
+	position: absolute;
+	top:65px;
+	font-size: 25px; 
+}
+
