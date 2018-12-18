@@ -121,6 +121,77 @@ img{
     height: 220px;
 	overflow:hidden;
 }
+
+.sekilqutu:hover img{
+	cursor: pointer;
+	position: absolute;
+	transform: scale(1.5);
+	transition: all 0.9s ease; 
+	
+}
+.hore{
+	position: absolute;
+	z-index: 20;
+	left: 0;
+	top: 0;
+	width: 100%;
+	height: 100%;
+	background: transparent;
+}
+
+
+.orta9{
+	border: 1px solid grey;
+	border-radius: 100%;
+	background: white;
+	color: black;
+	bottom: -30px;
+	left: 150px;	
+	display: inline-block;
+	position: absolute;
+	z-index: 3;
+	transition: all 0.6s ease;
+}
+.sekilqutu:hover .orta9{
+	bottom:  10px;
+	left: 150px;	
+	position: absolute;
+	z-index: 4;
+
+}
+.orta3{
+	width: 96px;
+	border: 1px solid grey;
+	border-radius:0 30px 0 25px;
+	background: purple;
+	color: black;
+	bottom: 0px;
+	left: 120px;	
+	display: inline-block;
+	position: relative;
+	z-index: 3;
+	transition: all 0.6s ease;
+	overflow: hidden;
+
+}
+.as:hover img{
+	transform: scale(1.1);
+	transition: all 0.9s ease;
+	cursor: pointer;
+}
+.as:hover .orta3{
+	bottom:  20px;
+	left: 120px;	
+	position: absolute;
+	z-index: 4;
+
+
+}
+.sekilqutu:hover .hore{
+	opacity: 0.3;
+	cursor: pointer; 
+	background: purple;
+}
 .ustyazi{
 	position: absolute;
 	  top: 25px;
@@ -132,6 +203,11 @@ img{
     line-height: 1.1;
     text-transform: uppercase;;
 
+}
+.as{
+	width: 100%;
+	height: 300px;
+	overflow: hidden;
 }
 .stext-106{
 	font-family: Poppins-Regular;
@@ -234,3 +310,205 @@ color: #797979;
 	font-size: 25px; 
 }
 
+.aa{
+	background: #222;
+	height: 350px;
+}
+
+.ab{
+	display:grid;
+	
+}
+.ab:hover a{
+	color: red;
+
+}
+.aq{
+	background: #717fe0;
+	height: 40px;
+	width: 200px;
+	border-radius: 50px 50px 50px 50px;
+}
+.aq:hover{
+	background: white;
+	cursor: pointer;
+	transition: all 0.9s ease;
+}
+
+.tt{
+	height: 30px;
+
+	margin: 0 0 0 -495px;
+}
+.tt img{
+	width: 50px;
+	
+}
+
+.rr{
+	height: 250px;
+	top: 100px;
+	width: 100%;
+}
+.qw{
+	margin: -136px 0 0 601px;
+	font-size: 50px;
+	color: white;
+	
+}
+
+.mm{
+	margin: 140px 0 0 0;
+}
+
+.mm img{
+	width: 100%;
+	height: 400px;
+
+}
+
+
+.qa:hover img {
+	transform: scale(1.1);
+	transition: all 0.9s ease;
+	
+}
+.qa{
+	width: 100%;
+	height: 400px;
+	overflow: hidden;
+}
+
+.ss:hover{
+	cursor: pointer;
+	color: #9684AF;
+	transition: all 0.6s ease;
+}
+.zz{
+	border:1px solid silver;
+	border-radius: 10px;
+	width: 80%;
+	height: 30px;
+}
+.nz {
+	width: 100%;
+	height: 20px;
+}
+.nz img{
+	height: 100px;
+	width: 100px;
+	position: relative;
+}
+
+.za{
+	margin: -18px 0 0 188px;
+}
+.hore1{
+	position: absolute;
+	z-index: 20;
+	left: 0;
+	top: 0;	
+	width: 100px;
+	height: 100px;
+	background: transparent;
+}
+
+.nz:hover img{
+	opacity: 0.6;
+	cursor: pointer; 
+	background: black;
+}
+
+.tex{
+	text-align: right;
+    margin: -25px 0 0 260px;
+
+}
+
+.xx{
+	display: inline-block;
+}
+
+.at{
+	margin: -40px 0 0 0;
+}
+.lo{
+	display: inline-block;
+	line-height: 1.94545;
+}
+
+.yy{
+	width: 100%;
+	height: 250px;
+	margin: 100px 0 0 0;
+}
+
+.ll{
+	width: 350px;
+	height: 400px;
+	overflow: hidden;
+	box-shadow: 38px -14px 0 13px;
+}
+.nn{
+	position: absolute;
+	z-index: 20;
+	left: 0;
+	top: 0;	
+	width: 600px;
+	height: 400px;
+	background: transparent;
+}
+
+.ll:hover img{
+	
+	transform: scale(1.1);
+	transition: all 0.9s ease;
+	
+
+}
+
+.d{
+	margin: 85px 0 0 0;
+}
+.cc{
+	margin: 0 0 0 0;
+}
+.size-116 {
+    width: 90%;
+    height: 50px;
+    border-radius: 10px;
+}
+.size-120 {
+    width: 90%;
+    min-height: 150px;
+    border-radius: 10px;
+}
+.size-121 {
+    width: 90%;
+    height: 46px;
+    border-radius: 10px;
+    background: black;
+    color: white;
+}
+
+.aze{
+	border:1px solid silver;
+}
+.azew{
+	height: 368px;
+}
+
+.map-container{
+	
+overflow:hidden;
+padding-bottom:56.25%;
+position:relative;
+height:0;
+}
+.map-container iframe{
+left:0;
+top:0;
+height:100%;
+width:100%;
+position:absolute;
+}
